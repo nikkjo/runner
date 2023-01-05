@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RobotUpperBody
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Cube
+    m_Weight: 0
+  - m_Path: Robot
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Bassin
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_L/Genou_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_L/Genou_L/Pied_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_L/Genou_L/Pied_L/Orteil_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_R/Genou_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_R/Genou_R/Pied_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Hanche_R/Genou_R/Pied_R/Orteil_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2
+    m_Weight: 1
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3
+    m_Weight: 1
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L
+    m_Weight: 1
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Index1_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Index1_L/Index2_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Index1_L/Index2_L/Index3_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Majeur1_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Majeur1_L/Majeur2_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Majeur1_L/Majeur2_L/Majeur3_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Pouce1_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Pouce1_L/Pouce2_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_L/Epaule_L/Coude_L/Main_L/Pouce1_L/Pouce2_L/Pouce3_L
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R
+    m_Weight: 1
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Index1_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Index1_R/Index2_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Index1_R/Index2_R/Index3_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Majeur1_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Majeur1_R/Majeur2_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Majeur1_R/Majeur2_R/Majeur3_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Pouce1_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Pouce1_R/Pouce2_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Clavicule_R/Epaule_R/Coude_R/Main_R/Pouce1_R/Pouce2_R/Pouce3_R
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Cou
+    m_Weight: 1
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Cou/Tete
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Cou/Tete/Antenne
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Cou/Tete/Antenne/Antenne2
+    m_Weight: 0
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Reacteur_L
+    m_Weight: 1
+  - m_Path: Root/Bassin/Spine1/Spine2/Spine3/Reacteur_R
+    m_Weight: 1

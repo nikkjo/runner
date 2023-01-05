@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2020-09-11T21:45:17Z</created><keywords></keywords><modified>2020-09-11T21:45:17Z</modified><revision></revision><subject></subject><title></title><unit meter="0.304800" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="firetruck_text-image" name="firetruck_text"><init_from>file://C:\Users\sadja\Desktop\HoverCars\textures\utility\emergency\firetruck.png</init_from></image>
+    <image id="firetruckBack_text-image" name="firetruckBack_text"><init_from>file://C:\Users\sadja\Desktop\HoverCars\textures\utility\emergency\firetruck_back_2.png</init_from></image>
+    <image id="Map #30-image" name="Map #30"><init_from>file://C:\Users\sadja\Desktop\HoverCars\textures\utility\emissive\firetruck_emiss.png</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="firetruck_mat" name="firetruck_mat">
+      <instance_effect url="#firetruck_mat-fx"/>
+    </material>
+    <material id="Material #311 Slot #2" name="Material #311 Slot #2">
+      <instance_effect url="#Material #311 Slot #2-fx"/>
+    </material>
+    <material id="Material #311 Slot #3" name="Material #311 Slot #3">
+      <instance_effect url="#Material #311 Slot #3-fx"/>
+    </material>
+    <material id="Material #124" name="Material #124">
+      <instance_effect url="#Material #124-fx"/>
+    </material>
+    <material id="Material #311 Slot #7" name="Material #311 Slot #7">
+      <instance_effect url="#Material #311 Slot #7-fx"/>
+    </material>
+    <material id="Material #311 Slot #8" name="Material #311 Slot #8">
+      <instance_effect url="#Material #311 Slot #8-fx"/>
+    </material>
+    <material id="Material #311 Slot #9" name="Material #311 Slot #9">
+      <instance_effect url="#Material #311 Slot #9-fx"/>
+    </material>
+    <material id="Material #311 Slot #10" name="Material #311 Slot #10">
+      <instance_effect url="#Material #311 Slot #10-fx"/>
+    </material>
+    <material id="Material #311 Slot #11" name="Material #311 Slot #11">
+      <instance_effect url="#Material #311 Slot #11-fx"/>
+    </material>
+    <material id="ambulance_mat" name="ambulance_mat">
+      <instance_effect url="#ambulance_mat-fx"/>
+    </material>
+    <material id="Material #150" name="Material #150">
+      <instance_effect url="#Material #150-fx"/>
+    </material>
+    <material id="Material #311 Slot #14" name="Material #311 Slot #14">
+      <instance_effect url="#Material #311 Slot #14-fx"/>
+    </material>
+    <material id="Material #311 Slot #15" name="Material #311 Slot #15">
+      <instance_effect url="#Material #311 Slot #15-fx"/>
+    </material>
+    <material id="Material #311 Slot #16" name="Material #311 Slot #16">
+      <instance_effect url="#Material #311 Slot #16-fx"/>
+    </material>
+    <material id="Material #311 Slot #17" name="Material #311 Slot #17">
+      <instance_effect url="#Material #311 Slot #17-fx"/>
+    </material>
+    <material id="Material #311 Slot #18" name="Material #311 Slot #18">
+      <instance_effect url="#Material #311 Slot #18-fx"/>
+    </material>
+    <material id="firetruckBack_mat" name="firetruckBack_mat">
+      <instance_effect url="#firetruckBack_mat-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="firetruck_mat-fx" name="firetruck_mat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <texture texture="Map #30-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="firetruck_text-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #2-fx" name="Material #311 Slot #2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #3-fx" name="Material #311 Slot #3">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #124-fx" name="Material #124">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588000  0.588000 0.588000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #7-fx" name="Material #311 Slot #7">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #8-fx" name="Material #311 Slot #8">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #9-fx" name="Material #311 Slot #9">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #10-fx" name="Material #311 Slot #10">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #11-fx" name="Material #311 Slot #11">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="ambulance_mat-fx" name="ambulance_mat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588000  0.588000 0.588000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #150-fx" name="Material #150">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588000  0.588000 0.588000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #14-fx" name="Material #311 Slot #14">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #15-fx" name="Material #311 Slot #15">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #16-fx" name="Material #311 Slot #16">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #17-fx" name="Material #311 Slot #17">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #311 Slot #18-fx" name="Material #311 Slot #18">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.200000 0.200000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.200000  0.200000 0.200000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="firetruckBack_mat-fx" name="firetruckBack_mat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="firetruckBack_text-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="firetruck-lib" name="firetruckMesh">
+      <mesh>
+        <source id="firetruck-POSITION">
+          <float_array id="firetruck-POSITION-array" count="522">
+0.230257 0.382194 0.650411
+0.230257 0.929825 0.650411
+0.609285 0.937532 0.092876
+0.609285 0.937532 -0.739968
+0.609285 0.384602 -0.739968
+0.609285 0.384602 0.092876
+-0.002397 0.382194 0.654572
+0.492366 0.382193 0.628623
+0.492366 0.929825 0.628623
+0.657416 0.937532 -0.357322
+0.657416 0.384602 -0.357322
+-0.285910 0.382194 0.650411
+-0.497905 0.382194 0.628623
+-0.497905 0.929825 0.628623
+-0.285910 0.929825 0.650411
+-0.617064 1.459850 0.092876
+-0.617064 0.384602 -0.739968
+-0.664446 0.384602 -0.357322
+-0.617064 0.937532 -0.739968
+-0.664446 0.937532 -0.357322
+-0.617064 0.384602 0.092876
+-0.617064 0.937532 0.092876
+-0.002397 0.929825 0.654572
+-0.664446 1.459850 -0.366901
+-0.617064 1.459850 -0.739968
+0.657416 1.459850 -0.366901
+0.609285 1.459850 -0.739968
+0.609285 1.459850 0.092876
+0.263122 1.480274 0.127142
+-0.000682 1.487477 0.127142
+-0.322155 1.480274 0.127142
+-0.664446 -1.173696 -0.357322
+-0.617063 -1.173696 -0.739968
+0.609285 -1.173696 -0.739968
+0.657416 -1.173696 -0.357322
+-0.000058 1.928605 -0.366901
+-0.000682 1.459850 -0.739968
+-0.000682 0.384602 -0.739968
+-0.000682 -1.173696 -0.739968
+-0.000682 -1.173696 -0.357322
+0.284292 1.895288 -0.366901
+0.263122 1.459850 -0.739968
+-0.346568 1.895288 -0.366901
+-0.322155 1.459850 -0.739968
+-0.322155 -1.173696 -0.357322
+-0.322155 -1.173696 -0.739968
+0.263122 -1.173696 -0.357322
+0.263122 -1.173696 -0.739968
+-0.322155 0.384602 -0.739968
+0.263122 0.384602 -0.739968
+-0.523812 0.931501 0.518188
+-0.523812 0.382717 0.518188
+0.517786 0.382717 0.518188
+0.517786 0.931501 0.518188
+-0.523812 -0.263081 0.518188
+-0.497905 -0.263081 0.628623
+-0.285910 -0.263081 0.650411
+-0.002397 -0.263081 0.654572
+0.230257 -0.263081 0.650411
+0.492366 -0.263081 0.628623
+0.517786 -0.263081 0.518188
+0.609285 -0.263081 0.092876
+0.657416 -0.263081 -0.357322
+0.609285 -0.263081 -0.739968
+0.263122 -0.263081 -0.739968
+-0.000682 -0.263081 -0.739968
+-0.322155 -0.263081 -0.739968
+-0.617063 -0.263081 -0.739968
+-0.664446 -0.263081 -0.357322
+-0.617063 -0.263081 0.092876
+0.597853 1.696212 -0.366901
+0.575497 1.696212 -0.739968
+0.263122 1.875168 -0.739968
+-0.000682 1.908485 -0.739968
+-0.322155 1.875168 -0.739968
+-0.583276 1.696212 -0.739968
+-0.604883 1.696212 -0.366901
+-0.568393 1.644876 0.078414
+-0.322155 1.836707 0.088320
+-0.000682 1.870023 0.094205
+0.263122 1.836707 0.088320
+0.560615 1.644876 0.078414
+0.263122 1.696212 0.120420
+-0.000682 1.696212 0.120420
+-0.322154 1.696212 0.120420
+0.263122 1.696212 -0.739968
+-0.000682 1.696212 -0.739968
+-0.322154 1.696212 -0.739968
+-0.322155 -1.919459 -0.357322
+-0.664446 -1.919459 -0.357322
+-0.617063 -1.919459 -0.739968
+-0.322155 -1.919459 -0.739968
+-0.000682 -1.919459 -0.739968
+0.263122 -1.919459 -0.739968
+0.609285 -1.919459 -0.739968
+0.657416 -1.919459 -0.357322
+0.263122 -1.919459 -0.357322
+-0.000682 -1.919459 -0.357322
+0.382428 0.744038 0.638604
+0.382428 0.674321 0.640276
+0.125785 0.674321 0.640276
+0.125785 0.744038 0.638604
+-0.130858 0.674321 0.640276
+-0.130858 0.744038 0.638604
+-0.387500 0.674321 0.640276
+-0.387500 0.744038 0.638604
+0.382428 0.604604 0.641950
+0.125785 0.604604 0.641950
+-0.130858 0.604604 0.641950
+-0.387500 0.604604 0.641950
+0.382428 0.745185 0.717507
+0.125785 0.745463 0.736622
+0.125785 0.675745 0.738295
+0.382428 0.675467 0.719180
+-0.130858 0.745463 0.736622
+-0.130858 0.675745 0.738295
+-0.387500 0.745185 0.717507
+-0.387500 0.675468 0.719180
+0.125785 0.606028 0.739968
+0.382428 0.605750 0.720853
+-0.130858 0.606028 0.739968
+-0.387500 0.605750 0.720853
+0.125785 0.744710 0.684826
+0.382428 0.744710 0.684826
+-0.130858 0.744710 0.684826
+-0.387500 0.744710 0.684826
+-0.387500 0.674993 0.686499
+-0.387500 0.605275 0.688172
+-0.130858 0.605275 0.688172
+0.125785 0.605275 0.688172
+0.382428 0.605275 0.688172
+0.382428 0.674993 0.686499
+0.382429 -1.699895 0.638604
+0.382429 -1.769613 0.640276
+0.125786 -1.769613 0.640276
+0.125786 -1.699895 0.638604
+-0.130857 -1.769612 0.640276
+-0.130857 -1.699895 0.638604
+-0.387499 -1.769612 0.640276
+-0.387499 -1.699895 0.638604
+0.382429 -1.839330 0.641950
+0.125786 -1.839330 0.641950
+-0.130857 -1.839330 0.641950
+-0.387499 -1.839330 0.641950
+0.382429 -1.698749 0.717507
+0.125786 -1.698471 0.736622
+0.125786 -1.768188 0.738295
+0.382429 -1.768466 0.719180
+-0.130857 -1.698471 0.736622
+-0.130857 -1.768188 0.738295
+-0.387499 -1.698749 0.717507
+-0.387499 -1.768466 0.719180
+0.125786 -1.837906 0.739968
+0.382429 -1.838183 0.720853
+-0.130857 -1.837906 0.739968
+-0.387499 -1.838183 0.720853
+0.125786 -1.699224 0.684826
+0.382429 -1.699224 0.684826
+-0.130857 -1.699224 0.684826
+-0.387499 -1.699223 0.684826
+-0.387499 -1.768941 0.686499
+-0.387499 -1.838658 0.688172
+-0.130857 -1.838658 0.688172
+0.125786 -1.838658 0.688172
+0.382429 -1.838658 0.688172
+0.382429 -1.768941 0.686499
+0.674001 -1.928605 -0.353637
+0.674001 -0.290405 -0.353637
+-0.674001 -1.928605 -0.353637
+-0.674001 -0.290405 -0.353637
+0.674001 -1.928605 0.629508
+0.674001 -0.290405 0.629508
+-0.674001 -1.928605 0.629508
+-0.674001 -0.290405 0.629508
+</float_array>
+          <technique_common>
+            <accessor source="#firetruck-POSITION-array" count="174" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="firetruck-Normal0">
+          <float_array id="firetruck-Normal0-array" count="2961">
+0.082840 -0.000000 0.996563
+0.083725 0.393816 0.915368
+0.046587 0.366961 0.929069
+0.046587 0.366961 0.929069
+0.050387 -0.000000 0.998730
+0.082840 -0.000000 0.996563
+0.083725 0.393816 0.915368
+0.114102 0.437053 0.892169
+0.068754 0.393853 0.916598
+0.068754 0.393853 0.916598
+0.046587 0.366961 0.929069
+0.083725 0.393816 0.915368
+0.999960 0.000264 -0.008949
+0.999957 -0.000000 -0.009310
+0.992182 -0.000000 -0.124801
+0.992182 -0.000000 -0.124801
+0.992182 -0.000000 -0.124801
+0.999960 0.000264 -0.008949
+0.050387 -0.000000 0.998730
+0.046587 0.366961 0.929069
+0.001478 0.368473 0.929637
+0.001478 0.368473 0.929637
+0.001604 -0.000000 0.999999
+0.050387 -0.000000 0.998730
+0.046587 0.366961 0.929069
+0.068754 0.393853 0.916598
+0.000917 0.380322 0.924854
+0.000917 0.380322 0.924854
+0.001478 0.368473 0.929637
+0.046587 0.366961 0.929069
+0.987354 -0.000000 0.158533
+0.987394 0.000263 0.158283
+0.975733 0.004326 0.218919
+0.975733 0.004326 0.218919
+0.976099 -0.000000 0.217325
+0.987354 -0.000000 0.158533
+0.975733 0.004326 0.218919
+0.987394 0.000263 0.158283
+0.986522 0.100952 0.128777
+0.986522 0.100952 0.128777
+0.974496 0.003850 0.224370
+0.975733 0.004326 0.218919
+0.987394 0.000263 0.158283
+0.987354 -0.000000 0.158533
+0.999957 -0.000000 -0.009310
+0.999957 -0.000000 -0.009310
+0.999960 0.000264 -0.008949
+0.987394 0.000263 0.158283
+-0.102237 -0.000000 0.994760
+-0.058512 -0.000000 0.998287
+-0.053854 0.365805 0.929132
+-0.053854 0.365805 0.929132
+-0.101064 0.393965 0.913552
+-0.102237 -0.000000 0.994760
+-0.101064 0.393965 0.913552
+-0.053854 0.365805 0.929132
+-0.079859 0.393732 0.915750
+-0.079859 0.393732 0.915750
+-0.133611 0.436548 0.889705
+-0.101064 0.393965 0.913552
+-0.999959 -0.000008 -0.009066
+-0.992420 -0.000000 -0.122890
+-0.992420 -0.000000 -0.122890
+-0.992420 -0.000000 -0.122890
+-0.999958 -0.000000 -0.009170
+-0.999959 -0.000008 -0.009066
+-0.058512 -0.000000 0.998287
+0.001604 -0.000000 0.999999
+0.001478 0.368473 0.929637
+0.001478 0.368473 0.929637
+-0.053854 0.365805 0.929132
+-0.058512 -0.000000 0.998287
+-0.053854 0.365805 0.929132
+0.001478 0.368473 0.929637
+0.000917 0.380322 0.924854
+0.000917 0.380322 0.924854
+-0.079859 0.393732 0.915750
+-0.053854 0.365805 0.929132
+-0.987171 -0.000000 0.159664
+-0.975209 -0.000000 0.221284
+-0.974830 0.004405 0.222905
+-0.974830 0.004405 0.222905
+-0.987171 0.000000 0.159664
+-0.987171 -0.000000 0.159664
+-0.974830 0.004405 0.222905
+-0.973549 0.003918 0.228444
+-0.986607 0.103441 0.126123
+-0.986607 0.103441 0.126123
+-0.987171 0.000000 0.159664
+-0.974830 0.004405 0.222905
+-0.987171 0.000000 0.159664
+-0.999959 -0.000008 -0.009066
+-0.999958 -0.000000 -0.009170
+-0.999958 -0.000000 -0.009170
+-0.987171 -0.000000 0.159664
+-0.987171 0.000000 0.159664
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.999960 0.000264 -0.008949
+0.992182 -0.000000 -0.124801
+0.989424 0.070071 -0.127003
+0.989424 0.070071 -0.127003
+0.993655 0.112452 -0.001959
+0.999960 0.000264 -0.008949
+-0.990606 0.089598 -0.103301
+-0.992420 -0.000000 -0.122890
+-0.999959 -0.000008 -0.009066
+-0.999959 -0.000008 -0.009066
+-0.992342 0.123036 -0.010929
+-0.990606 0.089598 -0.103301
+0.987394 0.000263 0.158283
+0.999960 0.000264 -0.008949
+0.993655 0.112452 -0.001959
+0.993655 0.112452 -0.001959
+0.986522 0.100952 0.128777
+0.987394 0.000263 0.158283
+-0.999959 -0.000008 -0.009066
+-0.987171 0.000000 0.159664
+-0.986607 0.103441 0.126123
+-0.986607 0.103441 0.126123
+-0.992342 0.123036 -0.010929
+-0.999959 -0.000008 -0.009066
+0.323038 0.944611 -0.057945
+0.338617 0.940284 0.034712
+0.805605 0.591408 0.035169
+0.805605 0.591408 0.035169
+0.808664 0.583878 -0.071764
+0.323038 0.944611 -0.057945
+-0.835841 0.534724 0.124259
+-0.366547 0.920436 0.135797
+-0.365585 0.929938 0.039539
+-0.365585 0.929938 0.039539
+-0.840006 0.541798 0.029076
+-0.835841 0.534724 0.124259
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.001604 -0.000000 0.999999
+0.001604 -0.000000 0.999999
+0.050388 -0.000000 0.998730
+0.050388 -0.000000 0.998730
+0.050387 -0.000000 0.998730
+0.001604 -0.000000 0.999999
+-0.058512 -0.000000 0.998287
+-0.058513 -0.000001 0.998287
+0.001604 -0.000000 0.999999
+0.001604 -0.000000 0.999999
+0.001604 -0.000000 0.999999
+-0.058512 -0.000000 0.998287
+-0.102237 -0.000000 0.994760
+-0.102238 -0.000001 0.994760
+-0.058513 -0.000001 0.998287
+-0.058513 -0.000001 0.998287
+-0.058512 -0.000000 0.998287
+-0.102237 -0.000000 0.994760
+-0.975209 -0.000000 0.221284
+-0.975209 -0.000000 0.221285
+-0.973569 -0.000000 0.228391
+-0.973569 -0.000000 0.228391
+-0.973570 -0.000000 0.228390
+-0.975209 -0.000000 0.221284
+-0.999958 -0.000000 -0.009170
+-0.998880 -0.000000 -0.047310
+-0.987171 -0.000000 0.159664
+-0.987171 -0.000000 0.159664
+-0.987171 -0.000000 0.159664
+-0.999958 -0.000000 -0.009170
+-0.992420 -0.000000 -0.122890
+-0.992420 -0.000000 -0.122890
+-0.998880 -0.000000 -0.047310
+-0.998880 -0.000000 -0.047310
+-0.999958 -0.000000 -0.009170
+-0.992420 -0.000000 -0.122890
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.999957 -0.000000 -0.009310
+0.998845 -0.000000 -0.048052
+0.992182 -0.000000 -0.124801
+0.992182 -0.000000 -0.124801
+0.992182 -0.000000 -0.124801
+0.999957 -0.000000 -0.009310
+0.987354 -0.000000 0.158533
+0.987354 -0.000000 0.158533
+0.998845 -0.000000 -0.048052
+0.998845 -0.000000 -0.048052
+0.999957 -0.000000 -0.009310
+0.987354 -0.000000 0.158533
+0.976099 -0.000000 0.217325
+0.976099 -0.000000 0.217326
+0.987354 -0.000000 0.158533
+0.987354 -0.000000 0.158533
+0.987354 -0.000000 0.158533
+0.976099 -0.000000 0.217325
+0.050387 -0.000000 0.998730
+0.050388 -0.000000 0.998730
+0.082841 -0.000000 0.996563
+0.082841 -0.000000 0.996563
+0.082840 -0.000000 0.996563
+0.050387 -0.000000 0.998730
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.335841 0.939260 -0.070717
+-0.365585 0.929938 0.039539
+0.009617 0.999258 0.037291
+0.009617 0.999258 0.037291
+0.009205 0.998395 -0.055882
+-0.335841 0.939260 -0.070717
+0.336853 0.932099 0.133122
+0.338617 0.940284 0.034712
+0.009617 0.999258 0.037291
+0.009617 0.999258 0.037291
+0.011196 0.991962 0.126039
+0.336853 0.932099 0.133122
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.009205 0.998395 -0.055882
+0.009617 0.999258 0.037291
+0.338617 0.940284 0.034712
+0.338617 0.940284 0.034712
+0.323038 0.944611 -0.057945
+0.009205 0.998395 -0.055882
+-0.850404 0.522237 -0.063888
+-0.840006 0.541798 0.029076
+-0.365585 0.929938 0.039539
+-0.365585 0.929938 0.039539
+-0.335841 0.939260 -0.070717
+-0.850404 0.522237 -0.063888
+0.808655 0.573483 0.131127
+0.805605 0.591408 0.035169
+0.338617 0.940284 0.034712
+0.338617 0.940284 0.034712
+0.336853 0.932099 0.133122
+0.808655 0.573483 0.131127
+-0.366547 0.920436 0.135797
+0.011196 0.991962 0.126039
+0.009617 0.999258 0.037291
+0.009617 0.999258 0.037291
+-0.365585 0.929938 0.039539
+-0.366547 0.920436 0.135797
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.974496 0.003850 0.224370
+0.974516 -0.000000 0.224317
+0.976099 -0.000000 0.217325
+0.976099 -0.000000 0.217325
+0.975733 0.004326 0.218919
+0.974496 0.003850 0.224370
+-0.973570 -0.000000 0.228390
+-0.973549 0.003918 0.228444
+-0.974830 0.004405 0.222905
+-0.974830 0.004405 0.222905
+-0.975209 -0.000000 0.221284
+-0.973570 -0.000000 0.228390
+-0.987171 -0.000000 0.159664
+-0.987171 -0.000000 0.159664
+-0.975209 -0.000000 0.221285
+-0.975209 -0.000000 0.221285
+-0.975209 -0.000000 0.221284
+-0.987171 -0.000000 0.159664
+0.976099 -0.000000 0.217325
+0.974516 -0.000000 0.224317
+0.974516 -0.000000 0.224318
+0.974516 -0.000000 0.224318
+0.976099 -0.000000 0.217326
+0.976099 -0.000000 0.217325
+-0.992420 -0.000000 -0.122890
+-0.992420 -0.000000 -0.122890
+-0.998880 -0.000000 -0.047310
+-0.998880 -0.000000 -0.047310
+-0.992420 -0.000000 -0.122890
+-0.992420 -0.000000 -0.122890
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.992182 0.000000 -0.124801
+0.992182 0.000000 -0.124801
+0.992182 -0.000000 -0.124801
+0.992182 -0.000000 -0.124801
+0.998845 -0.000000 -0.048052
+0.992182 0.000000 -0.124801
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.993655 0.112452 -0.001959
+0.989424 0.070071 -0.127003
+0.808664 0.583878 -0.071764
+0.808664 0.583878 -0.071764
+0.805605 0.591408 0.035169
+0.993655 0.112452 -0.001959
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+-0.990606 0.089598 -0.103301
+-0.992342 0.123036 -0.010929
+-0.840006 0.541798 0.029076
+-0.840006 0.541798 0.029076
+-0.850404 0.522237 -0.063888
+-0.990606 0.089598 -0.103301
+-0.992342 0.123036 -0.010929
+-0.986607 0.103441 0.126123
+-0.835841 0.534724 0.124259
+-0.835841 0.534724 0.124259
+-0.840006 0.541798 0.029076
+-0.992342 0.123036 -0.010929
+-0.079859 0.393732 0.915750
+-0.097012 0.132295 0.986452
+-0.155355 0.105432 0.982216
+-0.155355 0.105432 0.982216
+-0.133611 0.436548 0.889705
+-0.079859 0.393732 0.915750
+0.000917 0.380322 0.924854
+0.000834 0.101742 0.994811
+-0.097012 0.132295 0.986452
+-0.097012 0.132295 0.986452
+-0.079859 0.393732 0.915750
+0.000917 0.380322 0.924854
+0.000917 0.380322 0.924854
+0.068754 0.393853 0.916598
+0.080640 0.131665 0.988009
+0.080640 0.131665 0.988009
+0.000834 0.101742 0.994811
+0.000917 0.380322 0.924854
+0.068754 0.393853 0.916598
+0.114102 0.437053 0.892169
+0.127779 0.104155 0.986319
+0.127779 0.104155 0.986319
+0.080640 0.131665 0.988009
+0.068754 0.393853 0.916598
+0.986522 0.100952 0.128777
+0.993655 0.112452 -0.001959
+0.805605 0.591408 0.035169
+0.805605 0.591408 0.035169
+0.808655 0.573483 0.131127
+0.986522 0.100952 0.128777
+-0.097012 0.132295 0.986452
+-0.081951 0.207351 0.974828
+-0.155355 0.105432 0.982216
+0.000834 0.101742 0.994811
+0.003389 0.149135 0.988811
+-0.081951 0.207351 0.974828
+-0.081951 0.207351 0.974828
+-0.097012 0.132295 0.986452
+0.000834 0.101742 0.994811
+0.074940 0.205367 0.975812
+0.003389 0.149135 0.988811
+0.000834 0.101742 0.994811
+0.000834 0.101742 0.994811
+0.080640 0.131665 0.988009
+0.074940 0.205367 0.975812
+0.127779 0.104155 0.986319
+0.074940 0.205367 0.975812
+0.080640 0.131665 0.988009
+-0.000000 -0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.992420 0.000000 -0.122890
+-0.992420 0.000000 -0.122890
+-0.992420 0.000000 -0.122890
+-0.992420 0.000000 -0.122890
+-0.992420 0.000000 -0.122890
+-0.992420 0.000000 -0.122890
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.992182 0.000000 -0.124801
+0.992182 0.000000 -0.124801
+0.992182 0.000000 -0.124801
+0.992182 0.000000 -0.124801
+0.992182 0.000000 -0.124801
+0.992182 0.000000 -0.124801
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+0.000000 -0.023990 -0.999712
+-0.000000 -0.023990 -0.999712
+0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+0.000000 -0.023992 -0.999712
+0.000000 -0.023992 -0.999712
+0.000000 -0.023990 -0.999712
+0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023993 -0.999712
+0.000000 -0.023993 -0.999712
+0.000000 -0.023993 -0.999712
+0.000000 -0.023992 -0.999712
+-0.000000 -0.023991 -0.999712
+0.074279 0.023926 0.996951
+0.037174 0.023973 0.999021
+0.037165 0.023977 0.999021
+0.037165 0.023977 0.999021
+0.074279 0.023927 0.996950
+0.074279 0.023926 0.996951
+0.037174 0.023973 0.999021
+-0.037173 0.023973 0.999021
+-0.037165 0.023976 0.999021
+-0.037165 0.023976 0.999021
+0.037165 0.023977 0.999021
+0.037174 0.023973 0.999021
+-0.037173 0.023973 0.999021
+-0.074280 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.037165 0.023976 0.999021
+-0.037173 0.023973 0.999021
+0.074279 0.023927 0.996950
+0.037165 0.023977 0.999021
+0.037157 0.023980 0.999022
+0.037157 0.023980 0.999022
+0.074280 0.023927 0.996950
+0.074279 0.023927 0.996950
+0.037165 0.023977 0.999021
+-0.037165 0.023976 0.999021
+-0.037157 0.023980 0.999022
+-0.037157 0.023980 0.999022
+0.037157 0.023980 0.999022
+0.037165 0.023977 0.999021
+-0.037165 0.023976 0.999021
+-0.074279 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.037157 0.023980 0.999022
+-0.037165 0.023976 0.999021
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014529
+-0.000001 0.999894 -0.014539
+-0.000000 0.999894 -0.014531
+-0.000000 0.999894 -0.014531
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014529
+0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+-0.000000 0.999894 -0.014531
+0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+-0.000000 0.999894 -0.014528
+-0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+-0.000000 0.999894 -0.014531
+0.000000 0.999894 -0.014524
+0.000000 0.999894 -0.014524
+-0.000000 0.999894 -0.014528
+0.000000 0.999894 -0.014528
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.000001 -0.999895 0.014528
+0.000000 -0.999894 0.014524
+-0.000000 -0.999894 0.014527
+-0.000000 -0.999894 0.014527
+-0.000001 -0.999894 0.014530
+-0.000001 -0.999895 0.014528
+0.000000 -0.999894 0.014524
+-0.000000 -0.999895 0.014524
+0.000000 -0.999894 0.014525
+0.000000 -0.999894 0.014525
+-0.000000 -0.999894 0.014527
+0.000000 -0.999894 0.014524
+-0.000000 -0.999895 0.014524
+-0.000001 -0.999894 0.014529
+-0.000000 -0.999894 0.014533
+-0.000000 -0.999894 0.014533
+0.000000 -0.999894 0.014525
+-0.000000 -0.999895 0.014524
+-0.000001 -0.999894 0.014530
+-0.000000 -0.999894 0.014527
+-0.000001 -0.999894 0.014530
+-0.000001 -0.999894 0.014530
+-0.000001 -0.999894 0.014531
+-0.000001 -0.999894 0.014530
+-0.000000 -0.999894 0.014527
+0.000000 -0.999894 0.014525
+0.000001 -0.999894 0.014526
+0.000001 -0.999894 0.014526
+-0.000001 -0.999894 0.014530
+-0.000000 -0.999894 0.014527
+0.000000 -0.999894 0.014525
+-0.000000 -0.999894 0.014533
+0.000000 -0.999894 0.014536
+0.000000 -0.999894 0.014536
+0.000001 -0.999894 0.014526
+0.000000 -0.999894 0.014525
+1.000000 -0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+0.000000 -0.023990 -0.999712
+-0.000000 -0.023990 -0.999712
+0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+0.000000 -0.023992 -0.999712
+0.000000 -0.023992 -0.999712
+0.000000 -0.023990 -0.999712
+0.000000 -0.023990 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023993 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023991 -0.999712
+-0.000000 -0.023993 -0.999712
+0.000000 -0.023993 -0.999712
+0.000000 -0.023993 -0.999712
+0.000000 -0.023992 -0.999712
+-0.000000 -0.023991 -0.999712
+0.074279 0.023926 0.996951
+0.037174 0.023973 0.999021
+0.037165 0.023977 0.999021
+0.037165 0.023977 0.999021
+0.074279 0.023927 0.996950
+0.074279 0.023926 0.996951
+0.037174 0.023973 0.999021
+-0.037173 0.023973 0.999021
+-0.037165 0.023976 0.999021
+-0.037165 0.023976 0.999021
+0.037165 0.023977 0.999021
+0.037174 0.023973 0.999021
+-0.037173 0.023973 0.999021
+-0.074280 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.037165 0.023976 0.999021
+-0.037173 0.023973 0.999021
+0.074279 0.023927 0.996950
+0.037165 0.023977 0.999021
+0.037157 0.023980 0.999022
+0.037157 0.023980 0.999022
+0.074280 0.023927 0.996950
+0.074279 0.023927 0.996950
+0.037165 0.023977 0.999021
+-0.037165 0.023976 0.999021
+-0.037157 0.023980 0.999022
+-0.037157 0.023980 0.999022
+0.037157 0.023980 0.999022
+0.037165 0.023977 0.999021
+-0.037165 0.023976 0.999021
+-0.074279 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.074279 0.023927 0.996950
+-0.037157 0.023980 0.999022
+-0.037165 0.023976 0.999021
+0.000000 0.999895 -0.014528
+0.000000 0.999895 -0.014524
+0.000000 0.999894 -0.014527
+0.000000 0.999894 -0.014527
+-0.000000 0.999894 -0.014530
+0.000000 0.999895 -0.014528
+0.000000 0.999895 -0.014524
+0.000000 0.999895 -0.014524
+0.000000 0.999894 -0.014527
+0.000000 0.999894 -0.014527
+0.000000 0.999894 -0.014527
+0.000000 0.999895 -0.014524
+0.000000 0.999895 -0.014524
+-0.000002 0.999894 -0.014539
+-0.000000 0.999894 -0.014530
+-0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014527
+0.000000 0.999895 -0.014524
+-0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014527
+-0.000000 0.999894 -0.014530
+-0.000000 0.999894 -0.014530
+-0.000000 0.999894 -0.014531
+-0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014527
+0.000000 0.999894 -0.014527
+0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014530
+-0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014527
+0.000000 0.999894 -0.014527
+-0.000000 0.999894 -0.014530
+0.000001 0.999894 -0.014524
+0.000001 0.999894 -0.014524
+0.000000 0.999894 -0.014530
+0.000000 0.999894 -0.014527
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.000001 -0.999895 0.014528
+0.000000 -0.999894 0.014524
+-0.000000 -0.999894 0.014527
+-0.000000 -0.999894 0.014527
+-0.000001 -0.999894 0.014530
+-0.000001 -0.999895 0.014528
+0.000000 -0.999894 0.014524
+-0.000000 -0.999895 0.014524
+0.000000 -0.999894 0.014525
+0.000000 -0.999894 0.014525
+-0.000000 -0.999894 0.014527
+0.000000 -0.999894 0.014524
+-0.000000 -0.999895 0.014524
+-0.000001 -0.999894 0.014529
+-0.000000 -0.999894 0.014533
+-0.000000 -0.999894 0.014533
+0.000000 -0.999894 0.014525
+-0.000000 -0.999895 0.014524
+-0.000001 -0.999894 0.014530
+-0.000000 -0.999894 0.014527
+-0.000001 -0.999894 0.014530
+-0.000001 -0.999894 0.014530
+-0.000001 -0.999894 0.014531
+-0.000001 -0.999894 0.014530
+-0.000000 -0.999894 0.014527
+0.000000 -0.999894 0.014525
+0.000001 -0.999894 0.014526
+0.000001 -0.999894 0.014526
+-0.000001 -0.999894 0.014530
+-0.000000 -0.999894 0.014527
+0.000000 -0.999894 0.014525
+-0.000000 -0.999894 0.014533
+0.000000 -0.999894 0.014536
+0.000000 -0.999894 0.014536
+0.000001 -0.999894 0.014526
+0.000000 -0.999894 0.014525
+1.000000 -0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+0.000000 1.000000 0.000000
+-0.000000 1.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#firetruck-Normal0-array" count="987" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="firetruck-UV0">
+          <float_array id="firetruck-UV0-array" count="708">
+0.304942 0.342272
+0.600316 0.679403
+0.802948 0.592051
+0.802948 0.497624
+0.600316 0.794011
+0.458235 0.794011
+0.232540 0.342272
+0.458235 0.679403
+0.170129 0.208556
+0.170129 0.155756
+0.458235 0.876288
+0.600316 0.876288
+0.600316 0.988730
+0.214602 0.155756
+0.214602 0.208556
+0.232540 0.141790
+0.131717 0.352288
+0.273505 0.353807
+0.802948 0.433813
+0.852038 0.433813
+0.273505 0.471821
+0.131717 0.471821
+0.273505 0.548122
+0.170129 0.248794
+0.214602 0.248794
+0.304942 0.142347
+0.273505 0.665377
+0.458235 0.988730
+0.852038 0.592051
+0.131717 0.665377
+0.364315 0.342272
+0.364315 0.142347
+0.426199 0.342272
+0.426199 0.142347
+0.490816 0.142347
+0.490816 0.342272
+0.170129 0.297828
+0.214602 0.297828
+0.214602 0.342810
+0.170129 0.342810
+0.715468 0.875730
+0.715468 0.792000
+0.131717 0.548122
+0.014440 0.548122
+0.803022 0.672795
+0.715468 0.679403
+0.014440 0.352288
+0.014440 0.470077
+0.852038 0.802694
+0.856994 0.672795
+0.861398 0.889229
+0.802948 0.802694
+0.020568 0.785145
+0.020568 0.676873
+0.427899 0.470831
+0.472511 0.470831
+0.491496 0.147986
+0.427795 0.147986
+0.947681 0.889237
+0.898124 0.672795
+0.948244 0.672794
+0.900239 0.889276
+0.427795 0.112142
+0.483334 0.112142
+0.994220 0.672795
+0.427899 0.536034
+0.901150 0.433813
+0.941452 0.433813
+0.941452 0.592051
+0.709249 0.461274
+0.709249 0.353045
+0.901150 0.592051
+0.941451 0.802694
+0.901150 0.802694
+0.991509 0.592051
+0.508659 0.145143
+0.587237 0.145147
+0.803489 0.680142
+0.846807 0.680142
+0.661035 0.145150
+0.721595 0.145154
+0.895221 0.680142
+0.991508 0.802694
+0.994335 0.433813
+0.991509 0.497624
+0.945678 0.680142
+0.131717 0.639883
+0.273505 0.639883
+0.812110 0.145158
+0.991737 0.680142
+0.458235 0.964283
+0.600316 0.964283
+0.495362 0.639883
+0.098599 0.342810
+0.495362 0.665377
+0.098599 0.297828
+0.098599 0.248794
+0.098599 0.208556
+0.234533 0.988730
+0.098599 0.155756
+0.234533 0.964283
+0.234533 0.876288
+0.234533 0.794011
+0.991508 0.697726
+0.260616 0.679403
+0.941451 0.697726
+0.901150 0.697726
+0.852038 0.697726
+0.476373 0.353045
+0.802948 0.697726
+0.495362 0.471821
+0.495362 0.548122
+0.803022 0.889049
+0.803022 0.810229
+0.861436 0.810229
+0.900278 0.810229
+0.947719 0.810229
+0.994220 0.810229
+0.994220 0.889067
+0.994220 0.948678
+0.947720 0.948678
+0.900280 0.948678
+0.861439 0.948678
+0.803022 0.948678
+0.364103 0.147986
+0.364103 0.112142
+0.306207 0.147986
+0.856994 0.635636
+0.898124 0.635636
+0.948244 0.635637
+0.472511 0.536034
+0.472511 0.396884
+0.427899 0.396884
+0.427899 0.470831
+0.427899 0.536034
+0.306207 0.112142
+0.233943 0.147428
+0.243702 0.111585
+0.427795 0.088958
+0.364103 0.088958
+0.306207 0.088958
+0.427899 0.396884
+0.472511 0.470831
+0.472511 0.396884
+0.472511 0.536034
+0.662947 0.343808
+0.590005 0.342993
+0.535462 0.338723
+0.528796 0.317081
+0.504804 0.238512
+0.492614 0.150285
+0.831420 0.150285
+0.820323 0.238512
+0.796782 0.317081
+0.790241 0.338723
+0.722805 0.342993
+0.426102 0.676622
+0.426102 0.793963
+0.308761 0.793963
+0.308761 0.676622
+0.587237 0.145147
+0.508659 0.145143
+0.519536 0.029311
+0.587237 0.029311
+0.661035 0.029311
+0.721595 0.029311
+0.801061 0.029311
+0.812110 0.145158
+0.721595 0.145154
+0.661035 0.145150
+0.476373 0.461110
+0.476373 0.352809
+0.709021 0.461110
+0.709021 0.352809
+0.476373 0.353045
+0.476373 0.461274
+0.273505 0.353045
+0.273505 0.472604
+0.475937 0.472604
+0.260608 0.785145
+0.260608 0.676873
+0.458235 0.794764
+0.458235 0.679403
+0.260616 0.794764
+0.260559 0.785025
+0.260559 0.676823
+0.020528 0.676823
+0.020528 0.785025
+0.803489 0.803521
+0.846807 0.803521
+0.895221 0.803521
+0.945678 0.803521
+0.991737 0.803521
+0.803023 0.635635
+0.856995 0.608849
+0.898125 0.603656
+0.948244 0.608852
+0.994221 0.635638
+0.862422 0.318448
+0.862422 0.334692
+0.851593 0.334692
+0.851593 0.318448
+0.840764 0.334692
+0.840764 0.318448
+0.829935 0.334692
+0.829935 0.318448
+0.862422 0.350935
+0.851593 0.350935
+0.840764 0.350935
+0.829935 0.350935
+0.827986 0.282440
+0.877222 0.282440
+0.877222 0.299277
+0.827986 0.299277
+0.935244 0.282440
+0.935244 0.299277
+0.986610 0.282440
+0.986610 0.299277
+0.877222 0.315760
+0.827986 0.315760
+0.935244 0.315760
+0.986610 0.315760
+0.830651 0.253437
+0.876891 0.253437
+0.876891 0.260003
+0.830651 0.260003
+0.935544 0.253437
+0.935544 0.260004
+0.986122 0.253437
+0.986122 0.260003
+0.876891 0.266432
+0.830651 0.266432
+0.935544 0.266432
+0.986122 0.266432
+0.942421 0.218887
+0.961307 0.218887
+0.961307 0.235543
+0.942421 0.235543
+0.980192 0.218887
+0.980192 0.235543
+0.961307 0.251846
+0.942421 0.251846
+0.980192 0.251846
+0.986314 0.267059
+0.935145 0.267059
+0.935145 0.274383
+0.986314 0.274383
+0.877256 0.267059
+0.877256 0.274383
+0.828437 0.267059
+0.828437 0.274383
+0.935145 0.281553
+0.986314 0.281553
+0.877256 0.281553
+0.828437 0.281553
+0.835076 0.219918
+0.851319 0.219918
+0.851319 0.236161
+0.835076 0.236161
+0.867563 0.219918
+0.867563 0.236161
+0.851319 0.252405
+0.835076 0.252405
+0.867563 0.252405
+0.862422 0.318448
+0.862422 0.334692
+0.851593 0.334692
+0.851593 0.318448
+0.840764 0.334692
+0.840764 0.318448
+0.829935 0.334692
+0.829935 0.318448
+0.862422 0.350935
+0.851593 0.350935
+0.840764 0.350935
+0.829935 0.350935
+0.827986 0.282440
+0.877222 0.282440
+0.877222 0.299277
+0.827986 0.299277
+0.935244 0.282440
+0.935244 0.299277
+0.986610 0.282440
+0.986610 0.299277
+0.877222 0.315760
+0.827986 0.315760
+0.935244 0.315760
+0.986610 0.315760
+0.830651 0.253437
+0.876891 0.253437
+0.876891 0.260003
+0.830651 0.260003
+0.935544 0.253437
+0.935544 0.260004
+0.986122 0.253437
+0.986122 0.260003
+0.876891 0.266432
+0.830651 0.266432
+0.935544 0.266432
+0.986122 0.266432
+0.942421 0.218887
+0.961307 0.218887
+0.961307 0.235543
+0.942421 0.235543
+0.980192 0.218887
+0.980192 0.235543
+0.961307 0.251846
+0.942421 0.251846
+0.980192 0.251846
+0.986314 0.267059
+0.935145 0.267059
+0.935145 0.274383
+0.986314 0.274383
+0.877256 0.267059
+0.877256 0.274383
+0.828437 0.267059
+0.828437 0.274383
+0.935145 0.281553
+0.986314 0.281553
+0.877256 0.281553
+0.828437 0.281553
+0.835076 0.219918
+0.851319 0.219918
+0.851319 0.236161
+0.835076 0.236161
+0.867563 0.219918
+0.867563 0.236161
+0.851319 0.252405
+0.835076 0.252405
+0.867563 0.252405
+0.625497 0.508072
+0.984130 0.508072
+0.625497 0.866840
+0.984130 0.866840
+0.625497 0.508072
+0.984130 0.508072
+0.984130 0.866840
+0.625497 0.866840
+0.122315 0.110765
+0.433145 0.110765
+0.122315 0.479758
+0.433145 0.479758
+0.122918 0.501563
+0.609205 0.501563
+0.609205 0.871245
+0.122918 0.871245
+0.449562 0.109669
+0.761846 0.109669
+0.449562 0.480712
+0.761846 0.480712
+0.122918 0.501563
+0.609205 0.501563
+0.609205 0.871245
+0.122918 0.871245
+</float_array>
+          <technique_common>
+            <accessor source="#firetruck-UV0-array" count="354" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="firetruck-VERTEX">
+          <input semantic="POSITION" source="#firetruck-POSITION"/>
+        </vertices>
+        <triangles count="317" material="firetruck_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p> 7 0 9 8 1 13 1 2 14 1 3 14 0 4 8 7 5 9 8 6 6 27 7 15 28 8 25 28 9 25 1 10 0 8 11 6 9 12 4 10 13 5 4 14 7 4 15 7 3 16 1 9 17 4 0 18 8 1 19 14 22 20 24 22 21 24 6 22 23 0 23 8 1 24 0 28 25 25 29 26 31 29 27 31 22 28 30 1 29 0 5 30 10 2 31 11 53 32 91 53 33 91 52 34 90 5 35 10 53 36 91 2 37 11 27 38 40 27 39 40 8 40 12 53 41 91 2 42 11 5 43 10 10 44 5 10 45 5 9 46 4 2 47 11 12 48 39 11 49 36 14 50 37 14 51 37 13 52 38 12 53 39 13 54 35 14 55 32 30 56 33 30 57 33 15 58 34 13 59 35 19 60 21 18 61 16 16 62 17 16 63 17 17 64 20 19 65 21 11 66 36 6 67 23 22 68 24 22 69 24 14 70 37 11 71 36 14 72 32 22 73 30 29 74 31 29 75 31 30 76 33 14 77 32 20 78 22 51 79 87 50 80 86 50 81 86 21 82 42 20 83 22 50 84 86 13 85 29 15 86 43 15 87 43 21 88 42 50 89 86 21 90 42 19 91 21 17 92 20 17 93 20 20 94 22 21 95 42 18 96 3 24 97 18 43 98 19 16 99 2 18 100 3 43 101 19 16 102 2 43 103 19 48 104 28 9 105 4 3 106 1 26 107 45 26 108 45 25 109 41 9 110 4 24 111 46 18 112 16 19 113 21 19 114 21 23 115 47 24 116 46 2 117 11 9 118 4 25 119 41 25 120 41 27 121 40 2 122 11 19 123 21 21 124 42 15 125 43 15 126 43 23 127 47 19 128 21 72 129 114 40 130 50 70 131 112 70 132 112 71 133 113 72 134 114 77 135 119 78 136 120 42 137 58 42 138 58 76 139 118 77 140 119 89 141 161 90 142 162 91 143 163 91 144 163 88 145 160 89 146 161 6 147 23 57 148 96 58 149 97 58 150 97 0 151 8 6 152 23 11 153 36 56 154 95 57 155 96 57 156 96 6 157 23 11 158 36 12 159 39 55 160 93 56 161 95 56 162 95 11 163 36 12 164 39 51 165 87 54 166 92 55 167 94 55 168 94 12 169 26 51 170 87 17 171 20 68 172 110 69 173 111 69 174 111 20 175 22 17 176 20 16 177 176 67 178 108 68 179 178 68 180 178 17 181 177 16 182 176 48 183 28 66 184 107 67 185 109 67 186 109 16 187 2 48 188 28 10 189 181 62 190 183 63 191 104 63 192 104 4 193 182 10 194 181 5 195 10 61 196 101 62 197 102 62 198 102 10 199 5 5 200 10 52 201 90 60 202 100 61 203 101 61 204 101 5 205 10 52 206 90 0 207 8 58 208 97 59 209 99 59 210 99 7 211 9 0 212 8 41 213 67 49 214 68 37 215 71 37 216 71 36 217 66 41 218 67 74 219 116 42 220 58 35 221 61 35 222 61 73 223 115 74 224 116 80 225 122 40 226 50 35 227 61 35 228 61 79 229 121 80 230 122 92 231 164 93 232 165 96 233 168 96 234 168 97 235 169 92 236 164 49 237 68 64 238 105 65 239 106 65 240 106 37 241 71 49 242 68 73 243 115 35 244 61 40 245 50 40 246 50 72 247 114 73 248 115 75 249 117 76 250 118 42 251 58 42 252 58 74 253 116 75 254 117 81 255 123 70 256 112 40 257 50 40 258 50 80 259 122 81 260 123 78 261 120 79 262 121 35 263 61 35 264 61 42 265 58 78 266 120 43 267 19 36 268 66 37 269 71 37 270 71 48 271 28 43 272 19 92 273 164 97 274 169 88 275 160 88 276 160 91 277 163 92 278 164 37 279 71 65 280 106 66 281 107 66 282 107 48 283 28 37 284 71 93 285 165 94 286 166 95 287 167 95 288 167 96 289 168 93 290 165 4 291 74 63 292 103 64 293 105 64 294 105 49 295 68 4 296 74 41 297 67 26 298 83 3 299 84 41 300 67 3 301 84 4 302 74 41 303 67 4 304 74 49 305 68 8 306 12 7 307 27 52 308 90 52 309 90 53 310 91 8 311 12 12 312 26 13 313 29 50 314 86 50 315 86 51 316 87 12 317 26 20 318 22 69 319 111 54 320 92 54 321 92 51 322 87 20 323 22 52 324 90 7 325 27 59 326 98 59 327 98 60 328 100 52 329 90 32 330 70 31 331 69 68 332 175 68 333 175 67 334 174 32 335 70 45 336 48 32 337 51 67 338 109 67 339 109 66 340 107 45 341 48 34 342 52 33 343 53 63 344 180 63 345 180 62 346 179 34 347 52 47 348 72 38 349 73 65 350 106 65 351 106 64 352 105 47 353 72 38 354 73 45 355 48 66 356 107 66 357 107 65 358 106 38 359 73 33 360 82 47 361 72 64 362 105 64 363 105 63 364 103 33 365 82 25 366 54 26 367 141 71 368 143 71 369 143 70 370 142 25 371 54 41 372 49 85 373 127 71 374 193 71 375 193 26 376 44 41 377 49 41 378 49 36 379 59 86 380 128 86 381 128 85 382 127 41 383 49 43 384 60 87 385 129 86 386 128 86 387 128 36 388 59 43 389 60 43 390 60 24 391 64 75 392 197 75 393 197 87 394 129 43 395 60 24 396 131 23 397 55 76 398 133 76 399 133 75 400 132 24 401 131 23 402 55 15 403 130 77 404 134 77 405 134 76 406 133 23 407 55 30 408 57 84 409 62 77 410 63 77 411 63 15 412 56 30 413 57 29 414 124 83 415 125 84 416 62 84 417 62 30 418 57 29 419 124 29 420 124 28 421 126 82 422 135 82 423 135 83 424 125 29 425 124 28 426 126 27 427 136 81 428 137 81 429 137 82 430 135 28 431 126 27 432 65 25 433 54 70 434 142 70 435 142 81 436 144 27 437 65 84 438 62 78 439 138 77 440 63 83 441 125 79 442 139 78 443 138 78 444 138 84 445 62 83 446 125 80 447 140 79 448 139 83 449 125 83 450 125 82 451 135 80 452 140 81 453 137 80 454 140 82 455 135 85 456 127 72 457 194 71 458 193 86 459 128 73 460 195 72 461 194 72 462 194 85 463 127 86 464 128 74 465 196 73 466 195 86 467 128 86 468 128 87 469 129 74 470 196 75 471 197 74 472 196 87 473 129 31 474 157 34 475 158 62 476 159 62 477 159 68 478 156 31 479 157 56 480 146 55 481 147 54 482 148 54 483 148 69 484 149 68 485 150 56 486 146 54 487 148 68 488 150 68 489 150 62 490 151 61 491 152 56 492 146 68 493 150 61 494 152 61 495 152 60 496 153 59 497 154 56 498 146 61 499 152 59 500 154 56 501 146 59 502 154 58 503 155 57 504 145 56 505 146 58 506 155 44 507 76 31 508 75 89 509 161 89 510 161 88 511 160 44 512 76 31 513 170 32 514 171 90 515 173 90 516 173 89 517 172 31 518 170 32 519 77 45 520 78 91 521 189 91 522 189 90 523 188 32 524 77 45 525 78 38 526 81 92 527 190 92 528 190 91 529 189 45 530 78 38 531 81 47 532 85 93 533 191 93 534 191 92 535 190 38 536 81 47 537 85 33 538 89 94 539 192 94 540 192 93 541 191 47 542 85 33 543 185 34 544 184 95 545 187 95 546 187 94 547 186 33 548 185 34 549 88 46 550 80 96 551 168 96 552 168 95 553 167 34 554 88 46 555 80 39 556 79 97 557 169 97 558 169 96 559 168 46 560 80 39 561 79 44 562 76 88 563 160 88 564 160 97 565 169 39 566 79 98 567 198 99 568 199 100 569 200 100 570 200 101 571 201 98 572 198 101 573 201 100 574 200 102 575 202 102 576 202 103 577 203 101 578 201 103 579 203 102 580 202 104 581 204 104 582 204 105 583 205 103 584 203 99 585 199 106 586 206 107 587 207 107 588 207 100 589 200 99 590 199 100 591 200 107 592 207 108 593 208 108 594 208 102 595 202 100 596 200 102 597 202 108 598 208 109 599 209 109 600 209 104 601 204 102 602 202 110 603 210 111 604 211 112 605 212 112 606 212 113 607 213 110 608 210 111 609 211 114 610 214 115 611 215 115 612 215 112 613 212 111 614 211 114 615 214 116 616 216 117 617 217 117 618 217 115 619 215 114 620 214 113 621 213 112 622 212 118 623 218 118 624 218 119 625 219 113 626 213 112 627 212 115 628 215 120 629 220 120 630 220 118 631 218 112 632 212 115 633 215 117 634 217 121 635 221 121 636 221 120 637 220 115 638 215 98 639 222 101 640 223 122 641 224 122 642 224 123 643 225 98 644 222 101 645 223 103 646 226 124 647 227 124 648 227 122 649 224 101 650 223 103 651 226 105 652 228 125 653 229 125 654 229 124 655 227 103 656 226 123 657 225 122 658 224 111 659 230 111 660 230 110 661 231 123 662 225 122 663 224 124 664 227 114 665 232 114 666 232 111 667 230 122 668 224 124 669 227 125 670 229 116 671 233 116 672 233 114 673 232 124 674 227 105 675 234 104 676 235 126 677 236 126 678 236 125 679 237 105 680 234 104 681 235 109 682 238 127 683 239 127 684 239 126 685 236 104 686 235 125 687 237 126 688 236 117 689 240 117 690 240 116 691 241 125 692 237 126 693 236 127 694 239 121 695 242 121 696 242 117 697 240 126 698 236 109 699 243 108 700 244 128 701 245 128 702 245 127 703 246 109 704 243 108 705 244 107 706 247 129 707 248 129 708 248 128 709 245 108 710 244 107 711 247 106 712 249 130 713 250 130 714 250 129 715 248 107 716 247 127 717 246 128 718 245 120 719 251 120 720 251 121 721 252 127 722 246 128 723 245 129 724 248 118 725 253 118 726 253 120 727 251 128 728 245 129 729 248 130 730 250 119 731 254 119 732 254 118 733 253 129 734 248 106 735 255 99 736 256 131 737 257 131 738 257 130 739 258 106 740 255 99 741 256 98 742 259 123 743 260 123 744 260 131 745 257 99 746 256 130 747 258 131 748 257 113 749 261 113 750 261 119 751 262 130 752 258 131 753 257 123 754 260 110 755 263 110 756 263 113 757 261 131 758 257 132 759 264 133 760 265 134 761 266 134 762 266 135 763 267 132 764 264 135 765 267 134 766 266 136 767 268 136 768 268 137 769 269 135 770 267 137 771 269 136 772 268 138 773 270 138 774 270 139 775 271 137 776 269 133 777 265 140 778 272 141 779 273 141 780 273 134 781 266 133 782 265 134 783 266 141 784 273 142 785 274 142 786 274 136 787 268 134 788 266 136 789 268 142 790 274 143 791 275 143 792 275 138 793 270 136 794 268 144 795 276 145 796 277 146 797 278 146 798 278 147 799 279 144 800 276 145 801 277 148 802 280 149 803 281 149 804 281 146 805 278 145 806 277 148 807 280 150 808 282 151 809 283 151 810 283 149 811 281 148 812 280 147 813 279 146 814 278 152 815 284 152 816 284 153 817 285 147 818 279 146 819 278 149 820 281 154 821 286 154 822 286 152 823 284 146 824 278 149 825 281 151 826 283 155 827 287 155 828 287 154 829 286 149 830 281 132 831 288 135 832 289 156 833 290 156 834 290 157 835 291 132 836 288 135 837 289 137 838 292 158 839 293 158 840 293 156 841 290 135 842 289 137 843 292 139 844 294 159 845 295 159 846 295 158 847 293 137 848 292 157 849 291 156 850 290 145 851 296 145 852 296 144 853 297 157 854 291 156 855 290 158 856 293 148 857 298 148 858 298 145 859 296 156 860 290 158 861 293 159 862 295 150 863 299 150 864 299 148 865 298 158 866 293 139 867 300 138 868 301 160 869 302 160 870 302 159 871 303 139 872 300 138 873 301 143 874 304 161 875 305 161 876 305 160 877 302 138 878 301 159 879 303 160 880 302 151 881 306 151 882 306 150 883 307 159 884 303 160 885 302 161 886 305 155 887 308 155 888 308 151 889 306 160 890 302 143 891 309 142 892 310 162 893 311 162 894 311 161 895 312 143 896 309 142 897 310 141 898 313 163 899 314 163 900 314 162 901 311 142 902 310 141 903 313 140 904 315 164 905 316 164 906 316 163 907 314 141 908 313 161 909 312 162 910 311 154 911 317 154 912 317 155 913 318 161 914 312 162 915 311 163 916 314 152 917 319 152 918 319 154 919 317 162 920 311 163 921 314 164 922 316 153 923 320 153 924 320 152 925 319 163 926 314 140 927 321 133 928 322 165 929 323 165 930 323 164 931 324 140 932 321 133 933 322 132 934 325 157 935 326 157 936 326 165 937 323 133 938 322 164 939 324 165 940 323 147 941 327 147 942 327 153 943 328 164 944 324 165 945 323 157 946 326 144 947 329 144 948 329 147 949 327 165 950 323</p></triangles>
+        <triangles count="0" material="Material #311 Slot #2"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #3"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="firetruck_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="firetruck_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #124"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #7"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #8"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #9"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #10"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #11"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="ambulance_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #150"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #14"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #15"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #16"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #17"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="Material #311 Slot #18"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="ambulance_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="12" material="firetruckBack_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p> 166 951 334 168 952 335 169 953 336 169 954 336 167 955 337 166 956 334 170 957 330 171 958 331 173 959 333 173 960 333 172 961 332 170 962 330 166 963 350 167 964 351 171 965 352 171 966 352 170 967 353 166 968 350 167 969 338 169 970 339 173 971 341 173 972 341 171 973 340 167 974 338 169 975 342 168 976 343 172 977 344 172 978 344 173 979 345 169 980 342 168 981 346 166 982 347 170 983 349 170 984 349 172 985 348 168 986 346</p></triangles>
+        <triangles count="0" material="firetruckBack_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="firetruckBack_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="firetruckBack_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="firetruckBack_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+        <triangles count="0" material="firetruckBack_mat"><input semantic="VERTEX" offset="0" source="#firetruck-VERTEX"/><input semantic="NORMAL" offset="1" source="#firetruck-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#firetruck-UV0"/><p></p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="firetruck" name="firetruck">
+      <node name="firetruck" id="firetruck" sid="firetruck"><matrix sid="matrix">0.000001 23.249697 -0.000000 0.000000 0.000000 0.000000 18.091412 0.000000 23.513298 -0.000001 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#firetruck-lib"><bind_material><technique_common><instance_material symbol="firetruck_mat" target="#firetruck_mat"/><instance_material symbol="Material #311 Slot #2" target="#Material #311 Slot #2"/><instance_material symbol="Material #311 Slot #3" target="#Material #311 Slot #3"/><instance_material symbol="firetruck_mat" target="#firetruck_mat"/><instance_material symbol="firetruck_mat" target="#firetruck_mat"/><instance_material symbol="Material #124" target="#Material #124"/><instance_material symbol="Material #311 Slot #7" target="#Material #311 Slot #7"/><instance_material symbol="Material #311 Slot #8" target="#Material #311 Slot #8"/><instance_material symbol="Material #311 Slot #9" target="#Material #311 Slot #9"/><instance_material symbol="Material #311 Slot #10" target="#Material #311 Slot #10"/><instance_material symbol="Material #311 Slot #11" target="#Material #311 Slot #11"/><instance_material symbol="ambulance_mat" target="#ambulance_mat"/><instance_material symbol="Material #150" target="#Material #150"/><instance_material symbol="Material #311 Slot #14" target="#Material #311 Slot #14"/><instance_material symbol="Material #311 Slot #15" target="#Material #311 Slot #15"/><instance_material symbol="Material #311 Slot #16" target="#Material #311 Slot #16"/><instance_material symbol="Material #311 Slot #17" target="#Material #311 Slot #17"/><instance_material symbol="Material #311 Slot #18" target="#Material #311 Slot #18"/><instance_material symbol="ambulance_mat" target="#ambulance_mat"/><instance_material symbol="firetruckBack_mat" target="#firetruckBack_mat"/><instance_material symbol="firetruckBack_mat" target="#firetruckBack_mat"/><instance_material symbol="firetruckBack_mat" target="#firetruckBack_mat"/><instance_material symbol="firetruckBack_mat" target="#firetruckBack_mat"/><instance_material symbol="firetruckBack_mat" target="#firetruckBack_mat"/><instance_material symbol="firetruckBack_mat" target="#firetruckBack_mat"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#firetruck"></instance_visual_scene>
+  </scene>
+</COLLADA>
